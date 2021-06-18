@@ -1,0 +1,79 @@
+body
+{
+    background:url("bgdark.jpg") no-repeat;
+    background-size:cover;
+    filter:alpha(opacity=40);
+    height:100%;
+    z-index:0.1;
+}
+h1
+{
+    text-align:center;
+    font-size:50px;
+    color:aquamarine;
+}
+.container
+{
+    background-color:#4ddb3f;
+    opacity:0.8;
+    color: black;
+    margin:auto;
+    text-align:center;
+    width:70%;
+    height:450px;
+    border-radius:30px;
+    padding-top:80px;
+    margin-top:2%;
+    margin-bottom:7%;
+    transition:background-color 1s, color 1s;
+    transition-timing-function: ease;
+}
+.map
+{
+    border:10px solid black;
+    border-radius:20px;
+    margin:auto auto;
+    text-align:center;
+    width:60%;
+    height:400px;
+    padding-top:5px;
+}
+.container:hover
+{
+    background-color: black;
+    opacity:0.9;
+    color:#4ddb3f;
+}
+.address, .location, .geo
+{
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+}
+.btn
+{
+    border:none;
+    color:darkblue;
+    padding:15px;
+    font-size:25px;
+    width:30%;
+    margin-top:7%;
+    height:70px;
+    border-radius:40px;
+    font-weight:bold;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: opacity 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.btn:hover
+{
+    opacity:0.7;
+}
+@media (max-width:1199px)
+{
+    .container
+    {
+        width:100%;
+    }
+
+}
